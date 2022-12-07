@@ -11,7 +11,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
-    
+
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -27,4 +27,5 @@ nav:
   - Planejamento: planejamento
   - Encontros: encontros
   - Pré-Rastreabilidade: pre_rastreabilidade
-  - Elicitação: elicitação
+  - Elicitação: elicitacao
+  - Entregas: entregas.md
