@@ -1,0 +1,63 @@
+# 10/11/2022
+
+Ata redigida por Iago Campelo
+
+Horário de início da reunião: 20:11
+
+Horário de término da reunião: 21:02
+
+## 1. Objetivos para a reunião
+
+- Alinhar sobre as atividades;
+- Conversar sobre o aplicativo;
+- Sobre o tempo da sprint;
+- Falar com Alexia sobre compartilhar função de mantenedor.
+
+## 2. Discussão
+
+### 2.1. Atividades
+
+- Atividade de Lucas e Iago finalizadas;
+    - Falta revisão.
+- Atividade de Luísa finalizada;
+    - Falta revisão.
+- Atividade do Marcus e Luciano;
+    - Adicionar cronograma de sprints.
+
+### 2.2. Aplicativo
+
+- UnB HUB não é possível pois não tem login/registro, nem atualizações, nem é disponível na store;
+- Ficaremos com a Carteira Digital de Trânsito.
+
+### 2.3. Tempo da sprint
+
+- Mudar para sprint de 7 dias;
+- Mais fácil de definir.
+
+### 2.4. Mantenedor
+
+- Colocar todos de mantenedores do github.
+
+## 3. Decisões
+
+- Luísa vai alterar sobre a questão da página do RichPicture e o README com o aplicativo;
+- Alexia colocar todos de mantenedor do github;
+- Fazer atas de markdown;
+- Luciano e Marcus vão continuar cronograma geral com sprints baseadas nas entregas;
+- Luísa e Luciano vão fazer revisão do PR de metodologias;
+- Iago vai fazer issues da Alexia junto com a mesma, portanto não vai fazer mais revisões;
+- Marcus e Lucas responsáveis pela revisão na próxima sprint;
+
+## 4. Link da reunião
+
+[Reunião 10/11](https://youtu.be/e0kn0YUKiBg)
+
+## 5. Histórico de Versões
+
+|    Data    | Versão |                        Modificações                         | Autor(es) | Revisor(es) |
+| :--------: | :----: | :---------------------------------------------------------: | :-------: | :---------: |
+| 03/11/2022 |  1.0   |                      Criação da página                      |   Iago    |   Alexia    |
+| 16/11/2022 |  2.0   | Atualização com segunda reunião e mudanças no padrão de ata |   Iago    |   Alexia    |
+| 19/11/2022 |  3.0   |              Atualização com terceira reunião               |   Iago    |   Alexia    |
+| 29/11/2022 |  4.0   |  Atualização com quarta reunião e mudança no padrão de ata  |   Iago    |   Luciano   |
+| 06/12/2022 |  4.1   |        Separação dos encontros em arquivos separados        |  Luciano  |    Iago     |

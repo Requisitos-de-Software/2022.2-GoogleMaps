@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Entregas
 
 ## 1. Histórico de Versão
