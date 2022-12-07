@@ -5,12 +5,30 @@ theme:
   language: pt
   logo: ./assets/logos/google-logo.png
   font:
-    text: Roboto
+    text: Product Sans
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
+  palette:
+
+    # Esquema para o modo claro
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: red
+      accent: yellow
+
+    # Esquema para o modo escuro
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: indigo
+      accent: green
+
 
 markdown_extensions:
   - attr_list
