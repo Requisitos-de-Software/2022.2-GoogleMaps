@@ -9,7 +9,7 @@ hide:
 
 ## 2. Google Maps
 
-&emsp;&emsp; Google Maps é um aplicativo que disponibiliza informações sobre a localização, entre outras, dos estabalecimentos além de informar o horário de funcionamento e traçar rotas entre locais calculando o tempo de duração média dependendo do veículo selecionado. É uma das ferramentas mais utilizadas do Google com mais de 10 bilhões de downloads de acordo com a Google Play criada em 2005 pela Google.
+&emsp;&emsp; Google Maps é um aplicativo que disponibiliza informações sobre a localização, entre outras, dos estabelecimentos além de informar o horário de funcionamento e traçar rotas entre locais calculando o tempo de duração média dependendo do veículo selecionado. É uma das ferramentas mais utilizadas do Google com mais de 10 bilhões de downloads de acordo com a Google Play criada em 2005 pela Google.
 
 ## 3. Equipe
 
