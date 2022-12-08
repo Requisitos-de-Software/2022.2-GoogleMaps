@@ -78,7 +78,7 @@
 
 ### 3.7 Léxico 7
 
-&emsp;&emsp; O 7° léxico, se refere a "Utilização do aplicativo em segundo plano". Suas caracteríscticas serão melhor detalhadas na tabela 6 abaixo.
+&emsp;&emsp; O 7° léxico, se refere a "Utilização do aplicativo em segundo plano". Suas caracteríscticas serão melhor detalhadas na tabela 7 abaixo.
 
 <figcaption align="center">Tabela 7: Léxico 7</figcaption>
 
@@ -86,7 +86,6 @@
 | ------ | ----- | ------- | --------         | ------------- |
 |segundo plano|O usuário pode utilizar o aplicativo em segundo plano, para ir registrando locais em que esteve e seus tempos de deslocamento|O usuário pode registrar os locais em que esteve sem estar utilizando o aplicativo em primeiro plano.</br> O usuário pode utilizar o modo navegação e obter informações via voz de seu trajeto|acessar | Verbo         |
 <figcaption align="center">Fonte: Lucas Felipe </figcaption>
-
 
 ## 4. Conclusão
 
