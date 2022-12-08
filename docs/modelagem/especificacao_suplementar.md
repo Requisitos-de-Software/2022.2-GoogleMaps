@@ -9,7 +9,7 @@
 
 -  Outros requisitos como sistemas e ambientes operacionais, requisitos de compatibilidade e restrições de design.
 ## 1.1 Objetivo
-&emsp;&emsp; O objetivo deste documento é definir os requisitos do aplicativo mobile do Google Maps. "Trata-se de um documento em linguagem natural, no qual são descritos os requisitos não funcionais" de acordo com Maurício e Milene Serrano. 
+&emsp;&emsp; O objetivo deste documento é definir os requisitos do aplicativo mobile do Google Maps. "Trata-se de um documento em linguagem natural, no qual são descritos os requisitos não funcionais" de acordo com Maurício e Milene Serrano.
 
 ## 1.2 Escopo
 
@@ -48,14 +48,16 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 3. Usabilidade
 
+&emsp;&emsp; A usabilidade é um dos atributos de qualidade mais importantes de um sistema. Ela é definida como a facilidade com que um usuário pode aprender a usar um sistema, bem como a facilidade com que ele pode realizar tarefas específicas. As especificações suplementares de usabilidade são apresentadas na tabela 1.
+
 <figcaption align="center">Tabela 1: Especificação suplementar de usabilidade</figcaption>
 
 | Descrição                                                                                                                             | Tipo |
 | :------------------------------------------------------------------------------------------------------------------------------------ | :--: |
-| O usuário é capaz de realizar ações críticas em no máximo 5 clicks                                                                    | ES01 | 
-| Um usuário tecnófobo deve conseguir facilmente traçar rotas no aplicativo em uma semana de uso                                        | ES02 | 
-| Um usuário tecnófilo deve conseguir facilmente realizar todas as ações principais do aplicativo em uma semana de uso                  | ES03 | 
-| O sistema deve possuir ícones e descrições intuitivas o suficiente para que direcionem o uso do aplicativo pelo usuário               | ES04 | 
+| O usuário é capaz de realizar ações críticas em no máximo 5 clicks                                                                    | ES01 |
+| Um usuário tecnófobo deve conseguir facilmente traçar rotas no aplicativo em uma semana de uso                                        | ES02 |
+| Um usuário tecnófilo deve conseguir facilmente realizar todas as ações principais do aplicativo em uma semana de uso                  | ES03 |
+| O sistema deve possuir ícones e descrições intuitivas o suficiente para que direcionem o uso do aplicativo pelo usuário               | ES04 |
 | O sistema deve possuir cores intuitivas o suficiente para que ajudem o usuário na identificação de ações desejadas                    | ES05 |
 | O sistema deve possuir uma interface intuitivo o suficiente para que o usuário consiga navegar facilmente pelo aplicativo             | ES06 |
 
@@ -63,13 +65,15 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 4. Confiabilidade
 
+&emsp;&emsp; A confiabilidade é definida como a capacidade de um sistema de funcionar corretamente, mesmo em condições adversas. As especificações suplementares de confiabilidade são apresentadas na tabela 2.
+
 <figcaption align="center">Tabela 2 Especificação suplementar de confiabilidade</figcaption>
 
 |   Descrição                                                                               | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
-| As localizações registradas devem ter uma margem de erro de 5m com a localização real     | ES01 | 
-| O sistema deve estar disponível 24 horas por dia, 7 dias por semana                       | ES02 | 
-| O aplicativo deve disponibilizar o histórico de pesquisa do usuário apenas para o usuário | ES03 | 
+| As localizações registradas devem ter uma margem de erro de 5m com a localização real     | ES01 |
+| O sistema deve estar disponível 24 horas por dia, 7 dias por semana                       | ES02 |
+| O aplicativo deve disponibilizar o histórico de pesquisa do usuário apenas para o usuário | ES03 |
 | As rotas devem ser traçadas de acordo com as políticas de trânsito de cada cidade         | ES04 |
 | Devem ser traçadas áreas de alerta de acordo com o perigo de cada região                  | ES05 |
 
@@ -77,11 +81,13 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 5. Desempenho
 
+&emsp;&emsp; O desempenho é definido como a capacidade de um sistema de responder a uma solicitação em um tempo aceitável. As especificações suplementares de desempenho são apresentadas na tabela 3.
+
 <figcaption align="center">Tabela 3: Especificação suplementar de desempenho</figcaption>
 
 | Descrição                                                                                            | Tipo |
 | :--------------------------------------------------------------------------------------------------- | :--: |
-| A rota requisitada pelo usuário deve ser disponibilizada pelo sistema em menos de 5 segundos         | ES01 | 
+| A rota requisitada pelo usuário deve ser disponibilizada pelo sistema em menos de 5 segundos         | ES01 |
 | Deve ser possível usar o sistema pelo navegador caso ocorra algum erro com o aplicativo (degradação) | ES02 |
 | O software deve ser capaz de suportar milhões de usuários simultâneos                                | ES03 |
 
@@ -89,17 +95,21 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 6. Suportabilidade
 
+&emsp;&emsp; A suportabilidade é definida como a capacidade de um sistema de ser executado em diferentes ambientes. As especificações suplementares de suportabilidade são apresentadas na tabela 4.
+
 <figcaption align="center">Tabela 4: Especificação suplementar de suportabilidade</figcaption>
 
 | Descrição                                                                                                 | Tipo |
 | :-------------------------------------------------------------------------------------------------------- | :--: |
-| O aplicativo deve ter visualização para tela horizontal e tela vertical                                   | ES01 | 
-| Todo os elementos do aplicativo devem estar visualmente disponíveis para as telas dos sistemas suportados | ES02 | 
-| A linguagem de programação utilizada deve ser compatível com todos os sistemas operacionais suportados    | ES03 | 
+| O aplicativo deve ter visualização para tela horizontal e tela vertical                                   | ES01 |
+| Todo os elementos do aplicativo devem estar visualmente disponíveis para as telas dos sistemas suportados | ES02 |
+| A linguagem de programação utilizada deve ser compatível com todos os sistemas operacionais suportados    | ES03 |
 
 <figcaption align="center">Fonte: Grupo 5</figcaption>
 
 ## 7. Restrições de Design
+
+&emsp;&emsp; As restrições de design são definidas como as restrições que devem ser seguidas para que o sistema seja desenvolvido. As especificações suplementares de design são apresentadas na tabela 5.
 
 <figcaption align="center">Tabela 5: Especificação suplementar de design</figcaption>
 
@@ -113,16 +123,20 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 8. Documentação do Usuário On-line e Requisitos do Sistema de Ajuda
 
+&emsp;&emsp; A documentação do usuário on-line e os requisitos do sistema de ajuda são definidos como a capacidade de um sistema de fornecer ajuda ao usuário. As especificações suplementares de documentação e ajuda são apresentadas na tabela 6.
+
 <figcaption align="center">Tabela 6: Especificação suplementar de documentação e ajuda</figcaption>
 
 | Descrição                                                                                 | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
 | O sistema deve possuir uma documentação on-line de como utilizar o aplicativo             | ES01 |
-| Deve haver um ícone de ajuda ao usuário na página inicial com cores destacadas            | ES02 | 
+| Deve haver um ícone de ajuda ao usuário na página inicial com cores destacadas            | ES02 |
 
 <figcaption align="center">Fonte: Grupo 5</figcaption>
 
 ## 9. Requisitos de Interface
+
+&emsp;&emsp; Esta seção define as interfaces que devem ser suportadas pelo aplicativo. As especificações suplementares de interface são apresentadas na tabela 7.
 
 <figcaption align="center">Tabela 7: Especificação suplementar de requisitos de interface</figcaption>
 
@@ -134,6 +148,8 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 <figcaption align="center">Fonte: Grupo 5</figcaption>
 
 ## 10. Requisitos de Licenciamento
+
+&emsp;&emsp; Esta seção define os requisitos de licença do usuário do aplicativo. As especificações suplementares de licenciamento são apresentadas na tabela 8.
 
 <figcaption align="center">Tabela 8: Especificação suplementar de requisitos de licenciamento</figcaption>
 
@@ -158,8 +174,8 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 > SERRANO, Milene e SERRANO, Maurício. Requisitos – Aula 13. 11 jan. 2019. Apresentação em pdf. Disponível em: [link](https://aprender3.unb.br/pluginfile.php/2307510/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf). Acesso em 08 dez. 2022.
 
-> Software Requirements. Disponível em: [link](https://sites.google.com/site/projectucfcampusmap/home/software-requirements). Acesso em dez. de 2022. 
+> Software Requirements. Disponível em: [link](https://sites.google.com/site/projectucfcampusmap/home/software-requirements). Acesso em dez. de 2022.
 
 > API Google Maps. Disponível em: [link](https://developers.google.com/maps/). Acesso em dez. de 2022.
 
-> FURPS+. Disponível em: [link](https://qualidadebr.wordpress.com/2008/07/10/furps/). Acesso em dez. de 2022. 
+> FURPS+. Disponível em: [link](https://qualidadebr.wordpress.com/2008/07/10/furps/). Acesso em dez. de 2022.
