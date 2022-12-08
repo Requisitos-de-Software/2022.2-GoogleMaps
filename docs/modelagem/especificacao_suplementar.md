@@ -48,6 +48,8 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 
 ## 3. Usabilidade
 
+<figcaption align="center">Tabela 1: Especificação suplementar de usabilidade</figcaption>
+
 | Descrição                                                                                                                             | Tipo |
 | :------------------------------------------------------------------------------------------------------------------------------------ | :--: |
 | O usuário é capaz de realizar ações críticas em no máximo 5 clicks                                                                    | ES01 | 
@@ -57,7 +59,11 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 | O sistema deve possuir cores intuitivas o suficiente para que ajudem o usuário na identificação de ações desejadas                    | ES05 |
 | O sistema deve possuir uma interface intuitivo o suficiente para que o usuário consiga navegar facilmente pelo aplicativo             | ES06 |
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 4. Confiabilidade
+
+<figcaption align="center">Tabela 2 Especificação suplementar de confiabilidade</figcaption>
 
 |   Descrição                                                                               | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
@@ -67,7 +73,11 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 | As rotas devem ser traçadas de acordo com as políticas de trânsito de cada cidade         | ES04 |
 | Devem ser traçadas áreas de alerta de acordo com o perigo de cada região                  | ES05 |
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 5. Desempenho
+
+<figcaption align="center">Tabela 3: Especificação suplementar de desempenho</figcaption>
 
 | Descrição                                                                                            | Tipo |
 | :--------------------------------------------------------------------------------------------------- | :--: |
@@ -75,7 +85,11 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 | Deve ser possível usar o sistema pelo navegador caso ocorra algum erro com o aplicativo (degradação) | ES02 |
 | O software deve ser capaz de suportar milhões de usuários simultâneos                                | ES03 |
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 6. Suportabilidade
+
+<figcaption align="center">Tabela 4: Especificação suplementar de suportabilidade</figcaption>
 
 | Descrição                                                                                                 | Tipo |
 | :-------------------------------------------------------------------------------------------------------- | :--: |
@@ -83,7 +97,11 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 | Todo os elementos do aplicativo devem estar visualmente disponíveis para as telas dos sistemas suportados | ES02 | 
 | A linguagem de programação utilizada deve ser compatível com todos os sistemas operacionais suportados    | ES03 | 
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 7. Restrições de Design
+
+<figcaption align="center">Tabela 5: Especificação suplementar de design</figcaption>
 
 | Descrição                                                                                 | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
@@ -91,25 +109,39 @@ Uma breve descrição do escopo desta Especificação Suplementar; a qual(is) Pr
 | A linguagem de programação usada deve ser o JavaScript                                    | ES02 |
 | O sistema deve ser desenvolvido em React Native                                           | ES03 |
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 8. Documentação do Usuário On-line e Requisitos do Sistema de Ajuda
+
+<figcaption align="center">Tabela 6: Especificação suplementar de documentação e ajuda</figcaption>
 
 | Descrição                                                                                 | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
 | O sistema deve possuir uma documentação on-line de como utilizar o aplicativo             | ES01 |
 | Deve haver um ícone de ajuda ao usuário na página inicial com cores destacadas            | ES02 | 
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 9. Requisitos de Interface
+
+<figcaption align="center">Tabela 7: Especificação suplementar de requisitos de interface</figcaption>
 
 | Descrição                                                                                 | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
 | O sistema deve possuir uma interface gráfica utilizada para a interação com o usuário     | ES01 |
 | A comunicação entre as estações será feita através de uma rede global de satélites        | ES02 |
 
+<figcaption align="center">Fonte: Grupo 5</figcaption>
+
 ## 10. Requisitos de Licenciamento
+
+<figcaption align="center">Tabela 8: Especificação suplementar de requisitos de licenciamento</figcaption>
 
 | Descrição                                                                                 | Tipo |
 | :---------------------------------------------------------------------------------------- | :--: |
 | A utilização do software está sujeita a aceitação de uma licença de uso do Google Maps    | ES01 |
+
+<figcaption align="center">Fonte: Grupo 5</figcaption>
 
 ## 4. Histórico de Versão
 
