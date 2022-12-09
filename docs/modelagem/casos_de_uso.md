@@ -40,15 +40,15 @@
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
 </center>
 
-|       UC01        | Procurar sua localização                                           |
+|       UC01        | Ver mapa                                           |
 | :---------------: | ------------------------------------------------------------------ |
-|     Descrição     | O usuário deve ser capaz de procurar um local específico fácil.    |
+|     Descrição     | O usuário deve ser capaz de entrar no aplicativo e ter um mapa disponibilizado para ele realizar operações   |
 |       Ator        | Usuário                                                            |
 |   Pré-condições   | Aplicativo instalado e internet conectada                          |
-|  Fluxo Principal  | O usuário apenas deve abrir o aplicativo e pesquisar por um local. |
-| Fluxo Alternativo | O usuário busca um local direto no mapa                            |
-|   Pós-condições   | O usuário deve vializar seu local                                  |
-|  Rastreabilidade  | RF                                                                 |
+|  Fluxo Principal  | O usuário deve entrar no aplicativo e ter o mapa aberto, com os nomes de locais públicos e informações disponíveis |
+| Fluxo Alternativo | O usuário entra no aplicativo somente para ver as novidades e não acessa as atividades dessa página              |
+|   Pós-condições   | O usuário deve conseguir direcionar sua atividade em relacão ao mapa          |
+|  Rastreabilidade  | RF 1 ao RF 9                                                             |
 
 | Passo | Ação                                                             | Fluxo     | Sequência |
 | ----- | ---------------------------------------------------------------- | --------- | :-------: |
@@ -69,6 +69,17 @@
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
 </center>
 
+|       UC02        | Procurar sua localização                                           |
+| :---------------: | ------------------------------------------------------------------ |
+|     Descrição     | O usuário deve ser capaz de procurar um local específico fácil.    |
+|       Ator        | Usuário                                                            |
+|   Pré-condições   | Aplicativo instalado e internet conectada                          |
+|  Fluxo Principal  | O usuário apenas deve abrir o aplicativo, selecionar a barra de pesquisa, aparecer um teclado para digitar o nome do local, e conforme for escrevendo, aparecer opções de possíveis locais desejados. |
+| Fluxo Alternativo | O usuário busca um local direto no mapa sem pesquisa               |
+|   Pós-condições   | O usuário deve vizualizar seu local e ter opções de rota           |
+|  Rastreabilidade  | RF 10 a RF 14                                                |
+
+
 ## 3.3.Diagrama de "Traçar rota"
 
 &emsp;&emsp; O diagrama tratado na figura 3 aborda uma visão de interação entre o sistema e o usuário quanto os requisitos relacionados com a pesquisa de local. Tais requisitos coletados na seção de [Elicitação](https://requisitos-de-software.github.io/2022.2-GoogleMaps/elicitacao/2.perfil/), descrevem as necessidades do usuário em poder traçar rotas, contendo locais de partida e chegada, o tempo de percursso e distância de acordo com o meio de transporte escolhido, o modo navegação que permite uma facilidade de utilização da rota além de se poder buscar locais pertencentes a rota estabelicida.
@@ -81,6 +92,16 @@
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
 </center>
 
+|       UC03       | Traçar rota                                           |
+| :---------------: | ------------------------------------------------------------------ |
+|     Descrição     | O usuário deve conseguir traçar uma rota a partir de um local solicitado    |
+|       Ator        | Usuário                                                            |
+|   Pré-condições   | Aplicativo instalado e internet conectada                          |
+|  Fluxo Principal  | O usuário deve ter o local escolhido aberto na mapa e apertar o botão de "Rotas", onde a principal sugestão aparecerá traçada de azul e rotas opcionais de cinza, cada um com detalhes como o tempo estimado apresentado.|
+| Fluxo Alternativo | O usuário deseja mudar o local de rota e inicia uma nova busca               |
+|   Pós-condições   | O usuário deve conseguir iniciar o iniciar a utilização do GPS para chegar ao seu destino           |
+|  Rastreabilidade  | RF 26 a RF 33                                                |
+
 ## 4. Histórico de Versão
 
 |    Data    | Versão |                   Modificações                   |       Autor(es)        |   Revisor(es)   |
@@ -89,6 +110,7 @@
 | 08/12/2022 |  2.0   | Criação dos textos e tabelas sobre a diagramação |         Luíza          |      Iago       |
 | 08/12/2022 |  2.1   |       Criação dos diagramas de caso de uso       |    Lucas e Luciano     |      Iago       |
 | 08/12/2022 |  2.2   |      Criação da especificação dos diagramas      | Lucas, Luiza e Luciano |      Iago       |
+| 09/12/2022 |  2.3   |     Inserção de dados nas tabelas de especificação dos diagramas      | Lucas, Luiza e Luciano |      Iago       |
 
 ## 5. Bibliográfia
 
