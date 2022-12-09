@@ -94,7 +94,7 @@
 
 <figcaption align="center">Fonte: Lucas Felipe </figcaption>
 
-### 3.7 Léxico 8
+### 3.8 Léxico 8
 
 &emsp;&emsp; O 8° léxico, se refere a "Selecionar filtros de pesquisa/comentários". Suas características serão melhor detalhadas na tabela 8 abaixo.
 
@@ -106,7 +106,7 @@
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
-### 3.7 Léxico 9
+### 3.9 Léxico 9
 
 &emsp;&emsp; O 9° léxico, se refere a "Traçar rota". Suas características serão melhor detalhadas na tabela 9 abaixo.
 
@@ -118,7 +118,7 @@
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
-### 3.7 Léxico 10
+### 3.10 Léxico 10
 
 &emsp;&emsp; O 10° léxico, se refere a "Navegar no modo street view do mapa". Suas características serão melhor detalhadas na tabela 10 abaixo.
 
@@ -130,7 +130,7 @@
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
-### 3.7 Léxico 11
+### 3.11 Léxico 11
 
 &emsp;&emsp; O 11° léxico, se refere a "Selecionar meio de locomoção". Suas características serão melhor detalhadas na tabela 11 abaixo.
 
@@ -142,7 +142,7 @@
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
-### 3.7 Léxico 12
+### 3.12 Léxico 12
 
 &emsp;&emsp; O 12° léxico, se refere a "Ver preço da passagem". Suas características serão melhor detalhadas na tabela 12 abaixo.
 
@@ -154,15 +154,51 @@
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
-### 3.7 Léxico 13
+### 3.13 Léxico 13
 
-&emsp;&emsp; O 13° léxico, se refere a "". Suas características serão melhor detalhadas na tabela 13 abaixo.
+&emsp;&emsp; O 13° léxico, se refere a "Ver linhas disponíveis". Suas características serão melhor detalhadas na tabela 13 abaixo.
 
 <figcaption align="center">Tabela 13: Léxico 13</figcaption>
 
-| Léxico        | Noção                                                                                                                         | Impacto                                                                                                                                                                                        | Sinônimo | Classificação |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
-| segundo plano | O usuário pode utilizar o aplicativo em segundo plano, para ir registrando locais em que esteve e seus tempos de deslocamento | O usuário pode registrar os locais em que esteve sem estar utilizando o aplicativo em primeiro plano.</br> O usuário pode utilizar o modo navegação e obter informações via voz de seu trajeto | acessar  | Verbo         |
+| Léxico | Noção                                                                                                                    | Impacto                                                                                           | Sinônimo             | Classificação |
+| ------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
+| Linhas | O usuário pode visualizar os números ou nomes das linhas dos transportes públicos que levam ao destino pela rota traçada | O usuário pode ter conhecimento de quais transportes deverá embarcar para chegar ao destino final | Coletivo, transporte | Objeto        |
+
+<figcaption align="center">Fonte: Marcus Martins </figcaption>
+
+### 3.14 Léxico 14
+
+&emsp;&emsp; O 14° léxico, se refere a "Ver próximo horário de saída". Suas características serão melhor detalhadas na tabela 14 abaixo.
+
+<figcaption align="center">Tabela 14: Léxico 14</figcaption>
+
+| Léxico           | Noção                                                                                   | Impacto                                                                           | Sinônimo                                | Classificação |
+| ---------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------- | ------------- |
+| Horário de saída | O usuário pode visualizar em qual horário o transporte coletivo irá sair de certo ponto | O usuário pode se programar quanto ao horário em que deve estar no ponto de saída | Programado para sair, previsão de saída | Estado        |
+
+<figcaption align="center">Fonte: Marcus Martins </figcaption>
+
+### 3.15 Léxico 15
+
+&emsp;&emsp; O 15° léxico, se refere a "Iniciar rota e acompanhamento pelo mapa". Suas características serão melhor detalhadas na tabela 15 abaixo.
+
+<figcaption align="center">Tabela 15: Léxico 15</figcaption>
+
+| Léxico  | Noção                                                                            | Impacto                                                            | Sinônimo | Classificação |
+| ------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------- |
+| Iniciar | O usuário pode inciar o acompanhamento da rota pelo aplicativo utilizando o mapa | Ser guiado pelo caminho que deve ser tomado para chegar no destino | Começar  | Verbo         |
+
+<figcaption align="center">Fonte: Marcus Martins </figcaption>
+
+### 3.16 Léxico 16
+
+&emsp;&emsp; O 16° léxico, se refere a "Receber comandos de acompanhamento por voz após rota iniciada". Suas características serão melhor detalhadas na tabela 16 abaixo.
+
+<figcaption align="center">Tabela 16: Léxico 16</figcaption>
+
+| Léxico                 | Noção                                                                                        | Impacto                                                         | Sinônimo                      | Classificação |
+| ---------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------- | ------------- |
+| Acompanhamento por voz | O usuário pode receber as direções por meio auditivo durante o acompanhamento de seu trajeto | Evitar que o usuário perca o foco no trânsito durante o caminho | Assitência, orientação, apoio | Objeto        |
 
 <figcaption align="center">Fonte: Marcus Martins </figcaption>
 
@@ -172,12 +208,13 @@
 
 ## 5. Histórico de versões
 
-| Data       | Versão | Modificações                           | Autor(es) | Revisor(es)   |
-| ---------- | ------ | -------------------------------------- | --------- | ------------- |
-| 07/12/2022 | 1.0    | Criação da Página de Léxicos           | Lucas     | Iago e Marcus |
-| 08/12/2022 | 1.1    | Criação dos textos dos Léxicos 1 ao 7  | Lucas     | Iago e Marcus |
-| 08/12/2022 | 1.2    | Adiciiona conclusão e bibliográfia     | Lucas     | Iago e Marcus |
-| 09/12/2022 | 1.3    | Criação dos textos dos Léxicos 8 ao 12 | Marcus    | Lucas         |
+| Data       | Versão | Modificações                            | Autor(es) | Revisor(es)   |
+| ---------- | ------ | --------------------------------------- | --------- | ------------- |
+| 07/12/2022 | 1.0    | Criação da Página de Léxicos            | Lucas     | Iago e Marcus |
+| 08/12/2022 | 1.1    | Criação dos textos dos Léxicos 1 ao 7   | Lucas     | Iago e Marcus |
+| 08/12/2022 | 1.2    | Adiciiona conclusão e bibliográfia      | Lucas     | Iago e Marcus |
+| 09/12/2022 | 1.3    | Criação dos textos dos Léxicos 8 ao 12  | Marcus    | Lucas         |
+| 09/12/2022 | 1.4    | Criação dos textos dos Léxicos 13 ao 16 | Marcus    | Lucas         |
 
 ## 6. Bibliográfia
 
