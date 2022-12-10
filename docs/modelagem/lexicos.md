@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O Léxico é uma técnica que procura descrever os símbolos de uma linguagem. Dentro da engenharia de requisitos, buscar frases e domínios da aplicação é o principal objetivo. Cada um desses símbolos é descrito com uma noção e um impacto, sendo a noção relacionada com o símbolo e o impacto com a descrição do efeito do símbolo na aplicação ou do efeito de algo na aplicação sobre o símbolo. Essas descrições, seguem o princípio de um vocabulário mais minimalista e claro e o princípio circular onde cada extensão da descrição faz referência a outros símbolos da linguagem.
+&emsp;&emsp; O Léxico é uma técnica que procura descrever os símbolos de uma linguagem. Dentro da engenharia de requisitos, buscar frases e domínios da aplicação é o principal objetivo. Cada um desses símbolos é descrito com uma noção e um impacto, sendo a noção relacionada com o símbolo e o impacto com a descrição do efeito do símbolo na aplicação ou do efeito de algo na aplicação sobre o símbolo. Essas descrições, seguem o princípio de um vocabulário mais minimalista e claro, e o princípio circular onde cada extensão da descrição faz referência a outros símbolos da linguagem.
 
 ## 2. Metodologias
 
-&emsp;&emsp; Os símbolos do Google Maps foram identificados a partir do uso do aplicativo e dos requisitos elicitados melhor trabalhados na página de [Elicitação](https://requisitos-de-software.github.io/2022.2-GoogleMaps/elicitacao/2.perfil/). Após identificados eles foram ordenados e descritos como: noção, impacto e sinônimos. Afim de facilitar a compreensão dos símbolos apresentados, trataremos em tabelas na próxima seção os léxicos da aplicação.
+&emsp;&emsp; Os símbolos do Google Maps foram identificados a partir do uso do aplicativo e dos requisitos elicitados melhor trabalhados na página de [Elicitação](https://requisitos-de-software.github.io/2022.2-GoogleMaps/elicitacao/2.perfil/). Após identificados eles foram ordenados e descritos como: **noção**, **impacto** e **sinônimos**. Afim de facilitar a compreensão dos símbolos apresentados, trataremos em tabelas na próxima seção os léxicos da aplicação.
 
 ## 3. Léxicos
 
@@ -126,9 +126,9 @@
 
 | Léxico                     | Noção                                                       | Impacto                                                                                        | Sinônimo | Classificação |
 | -------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------- | ------------- |
-| Street view (Visão da rua) | O usuário pode visualizar e navegar pela rua da localização | Conferir se o local corresponde ao que se espera e pode conhecer as redondezas pela aplicação. | -        | Estado        |
+| Street view (Visão da rua) | O usuário pode visualizar e navegar pela rua da localização | Conferir se o local corresponde ao que se espera e pode conhecer as redondezas pela aplicação. | visualizar, ver       | Estado        |
 
-<figcaption align="center">Fonte: Marcus Martins </figcaption>
+<figcaption align="center">Fonte: Marcus Martins e Lucas Felipe</figcaption>
 
 ### 3.11 Léxico 11
 
@@ -138,9 +138,9 @@
 
 | Léxico | Noção                                                             | Impacto                                                                                               | Sinônimo             | Classificação |
 | ------ | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------- | ------------- |
-| Meio   | O usuário pode escolher o meio que irá utilizar para se locomover | Abranger um número maior de usuários <br/> Facilitar a locomoção em diferentes formas de se locomover | Modo, forma, maneira | Objeto        |
+| Meio   | O usuário pode escolher o meio de transporte em que irá utilizar para se locomover | Abranger um número maior de usuários <br/> Facilitar a locomoção em diferentes meios de transporte | Modo, forma, maneira | Objeto        |
 
-<figcaption align="center">Fonte: Marcus Martins </figcaption>
+<figcaption align="center">Fonte: Marcus Martins e Lucas Felipe </figcaption>
 
 ### 3.12 Léxico 12
 
@@ -186,9 +186,9 @@
 
 | Léxico  | Noção                                                                            | Impacto                                                            | Sinônimo | Classificação |
 | ------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------- |
-| Iniciar | O usuário pode inciar o acompanhamento da rota pelo aplicativo utilizando o mapa | Ser guiado pelo caminho que deve ser tomado para chegar no destino | Começar  | Verbo         |
+| Iniciar | O usuário pode inciar o acompanhamento da rota pelo aplicativo utilizando o mapa | Ser guiado pelo caminho que deve ser tomado para chegar no destino | Começar, dar início  | Verbo         |
 
-<figcaption align="center">Fonte: Marcus Martins </figcaption>
+<figcaption align="center">Fonte: Marcus Martins e Lucas Felipe</figcaption>
 
 ### 3.16 Léxico 16
 
@@ -212,9 +212,10 @@
 | ---------- | ------ | --------------------------------------- | --------- | ------------- |
 | 07/12/2022 | 1.0    | Criação da Página de Léxicos            | Lucas     | Iago e Marcus |
 | 08/12/2022 | 1.1    | Criação dos textos dos Léxicos 1 ao 7   | Lucas     | Iago e Marcus |
-| 08/12/2022 | 1.2    | Adiciiona conclusão e bibliográfia      | Lucas     | Iago e Marcus |
+| 08/12/2022 | 1.2    | Adiciona conclusão e bibliográfia      | Lucas     | Iago e Marcus |
 | 09/12/2022 | 1.3    | Criação dos textos dos Léxicos 8 ao 12  | Marcus    | Lucas         |
 | 09/12/2022 | 1.4    | Criação dos textos dos Léxicos 13 ao 16 | Marcus    | Lucas         |
+| 10/12/2022 | 1.5    | Revisão e correção dos artefatos dos léxicos 8 ao 16  |Lucas   | Luiza        |
 
 ## 6. Bibliográfia
 
