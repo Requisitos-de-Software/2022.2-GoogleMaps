@@ -4,7 +4,7 @@
 
 &emsp;&emsp;O Diagrama de Caso de uso é uma representação das interações entre o usuário e o sistema. Dentro desse modelo, existem vários símbolos que representam diferentes estruturas e atividades.
 
-&emsp;&emsp;Esse diagrama auxilia na discussã de cenários e definição de metas e escopo que o sistema atenderá. Por não ter tantos detalhes, geralmente o diagrama é acompanhado de uma descrição.
+&emsp;&emsp;Esse diagrama auxilia na discussão de cenários, definição de metas e o escopo que o sistema atenderá. Por não ter tantos detalhes, geralmente o diagrama é acompanhado de uma descrição.
 
 ## 2. Metodologias
 
@@ -40,6 +40,8 @@
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
 </center>
 
+<figcaption align="center">Tabela 2: Detalhes da figura 1</figcaption>
+
 |       UC01        | Ver mapa                                           |
 | :---------------: | ------------------------------------------------------------------ |
 |     Descrição     | O usuário deve ser capaz de entrar no aplicativo e ter um mapa disponibilizado para ele realizar operações   |
@@ -49,6 +51,11 @@
 | Fluxo Alternativo | O usuário entra no aplicativo somente para ver as novidades e não acessa as atividades dessa página              |
 |   Pós-condições   | O usuário deve conseguir direcionar sua atividade em relacão ao mapa          |
 |  Rastreabilidade  | RF 1 ao RF 9                                                             |
+
+<center>
+<figcaption align="center">Tabela 3: Etapas de interação do primeiro caso de uso</figcaption>
+
+</center>
 
 | Passo | Ação                                                             | Fluxo     | Sequência |
 | ----- | ---------------------------------------------------------------- | --------- | :-------: |
@@ -67,7 +74,13 @@
 ![atores](../assets/casoUso/usecase02_pesquisar-local.jpeg){width="600" height="100"}
 
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
+
+<center>
+<figcaption align="center">Tabela 4: Detalhes da figura 2</figcaption>
+
 </center>
+</center>
+
 
 |       UC02        | Procurar sua localização                                           |
 | :---------------: | ------------------------------------------------------------------ |
@@ -90,6 +103,11 @@
 ![atores](../assets/casoUso/usecase03_tracar-rota.jpeg){width="600" height="100"}
 
 <figcaption>Fonte: Lucas e Luciano</figcaption> 
+
+<center>
+<figcaption align="center">Tabela 5: Detalhes da figura 3</figcaption>
+
+</center>
 </center>
 
 |       UC03       | Traçar rota                                           |
@@ -110,7 +128,8 @@
 | 08/12/2022 |  2.0   | Criação dos textos e tabelas sobre a diagramação |         Luíza          |      Iago       |
 | 08/12/2022 |  2.1   |       Criação dos diagramas de caso de uso       |    Lucas e Luciano     |      Iago       |
 | 08/12/2022 |  2.2   |      Criação da especificação dos diagramas      | Lucas, Luiza e Luciano |      Iago       |
-| 09/12/2022 |  2.3   |     Inserção de dados nas tabelas de especificação dos diagramas      | Lucas, Luiza e Luciano |      Iago       |
+| 09/12/2022 |  2.3   |     Inserção de dados nas tabelas de especificação dos diagramas, títulos das tabelas      | Lucas, Luiza e Luciano |      Iago       |
+
 
 ## 5. Bibliográfia
 
