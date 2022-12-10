@@ -37,7 +37,7 @@
 
 ![atores](../assets/casoUso/usecase01_ver-mapa.jpeg){width="600" height="100"}
 
-<figcaption>Fonte: Lucas e Luciano</figcaption> 
+<figcaption>Fonte: Lucas e Luciano</figcaption>
 </center>
 
 <figcaption align="center">Tabela 2: Detalhes da figura 1</figcaption>
@@ -49,7 +49,7 @@
 |   Pré-condições   | Aplicativo instalado e internet conectada                          |
 |  Fluxo Principal  | O usuário deve entrar no aplicativo e ter o mapa aberto, com os nomes de locais públicos e informações disponíveis |
 | Fluxo Alternativo | O usuário entra no aplicativo somente para ver as novidades e não acessa as atividades dessa página              |
-|   Pós-condições   | O usuário deve conseguir direcionar sua atividade em relacão ao mapa          |
+|   Pós-condições   | O usuário deve conseguir direcionar sua atividade em relação ao mapa          |
 |  Rastreabilidade  | RF 1 ao RF 9                                                             |
 
 <center>
@@ -73,7 +73,7 @@
 
 ![atores](../assets/casoUso/usecase02_pesquisar-local.jpeg){width="600" height="100"}
 
-<figcaption>Fonte: Lucas e Luciano</figcaption> 
+<figcaption>Fonte: Lucas e Luciano</figcaption>
 
 <center>
 <figcaption align="center">Tabela 4: Detalhes da figura 2</figcaption>
@@ -89,20 +89,20 @@
 |   Pré-condições   | Aplicativo instalado e internet conectada                          |
 |  Fluxo Principal  | O usuário apenas deve abrir o aplicativo, selecionar a barra de pesquisa, aparecer um teclado para digitar o nome do local, e conforme for escrevendo, aparecer opções de possíveis locais desejados. |
 | Fluxo Alternativo | O usuário busca um local direto no mapa sem pesquisa               |
-|   Pós-condições   | O usuário deve vizualizar seu local e ter opções de rota           |
+|   Pós-condições   | O usuário deve visualizar seu local e ter opções de rota           |
 |  Rastreabilidade  | RF 10 a RF 14                                                |
 
 
 ## 3.3.Diagrama de "Traçar rota"
 
-&emsp;&emsp; O diagrama tratado na figura 3 aborda uma visão de interação entre o sistema e o usuário quanto os requisitos relacionados com a pesquisa de local. Tais requisitos coletados na seção de [Elicitação](https://requisitos-de-software.github.io/2022.2-GoogleMaps/elicitacao/2.perfil/), descrevem as necessidades do usuário em poder traçar rotas, contendo locais de partida e chegada, o tempo de percursso e distância de acordo com o meio de transporte escolhido, o modo navegação que permite uma facilidade de utilização da rota além de se poder buscar locais pertencentes a rota estabelicida.
+&emsp;&emsp; O diagrama tratado na figura 3 aborda uma visão de interação entre o sistema e o usuário quanto os requisitos relacionados com a pesquisa de local. Tais requisitos coletados na seção de [Elicitação](https://requisitos-de-software.github.io/2022.2-GoogleMaps/elicitacao/2.perfil/), descrevem as necessidades do usuário em poder traçar rotas, contendo locais de partida e chegada, o tempo de percurso e distância de acordo com o meio de transporte escolhido, o modo navegação que permite uma facilidade de utilização da rota além de se poder buscar locais pertencentes a rota estabelecida.
 
 <center>
 <figcaption align="center">Figura 3: Diagrama de "traçar rota"</figcaption>
 
 ![atores](../assets/casoUso/usecase03_tracar-rota.jpeg){width="600" height="100"}
 
-<figcaption>Fonte: Lucas e Luciano</figcaption> 
+<figcaption>Fonte: Lucas e Luciano</figcaption>
 
 <center>
 <figcaption align="center">Tabela 5: Detalhes da figura 3</figcaption>
@@ -131,7 +131,7 @@
 | 09/12/2022 |  2.3   |     Inserção de dados nas tabelas de especificação dos diagramas, títulos das tabelas      | Lucas, Luiza e Luciano |      Iago       |
 
 
-## 5. Bibliográfia
+## 5. Bibliografia
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 13. Brasília: Unb-Gama, 2017. 35 slides, color. Disponível em: [link](https://aprender3.unb.br/pluginfile.php/2307510/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf). Acesso em: 08 dez. 2022.
 
