@@ -30,7 +30,7 @@
 
 | Léxico     | Noção                                                     | Impacto                                                                                                                                                 | Sinônimo        | Classificação |
 | ---------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------- |
-| Visualizar | O usuário visualiza o mapa após seu acesso ao aplicativo. | O usuário pode escolher a escala de zoom que se deseja ver o mapa</br> O usuário pode visualizar diferentes localidades sem necessáriamente estar nelas | Ver, visualizar | Verbo         |
+| Visualizar | O usuário visualiza o mapa após seu acesso ao aplicativo. | O usuário pode escolher a escala de zoom que se deseja ver o mapa</br> O usuário pode visualizar diferentes localidades sem necessáriamente estar nelas | Ver, observar | Verbo         |
 
 <figcaption align="center">Fonte: Lucas Felipe </figcaption>
 
@@ -42,7 +42,7 @@
 
 | Léxico    | Noção                                                                                          | Impacto                                                                                                            | Sinônimo          | Classificação |
 | --------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------- | ------------- |
-| Pesquisar | O usuário após o acesso ao aplicativo, pode pesquisar o local desejado pela barra de pesquisas | O usuário pode pesquisar por quaisquer local desejado</br> O usuário pode extrair informações dos locais desejados | Pesquisar, buscar | Verbo         |
+| Pesquisar | O usuário após o acesso ao aplicativo, pode pesquisar o local desejado pela barra de pesquisas | O usuário pode pesquisar por quaisquer local desejado</br> O usuário pode extrair informações dos locais desejados | averiguar, buscar | Verbo         |
 
 <figcaption align="center">Fonte: Lucas Felipe </figcaption>
 
