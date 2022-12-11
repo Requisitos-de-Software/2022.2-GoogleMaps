@@ -159,7 +159,7 @@ Uma breve descrição do escopo desta Especificação Suplementar: a qual(is) Pr
 
 <figcaption align="center">Fonte: Elaboração própia</figcaption>
 
-## 4. Histórico de Versão
+## 11. Histórico de Versão
 
 |    Data    | Versão |                          Modificações                           |    Autor(es)     |  Revisor(es)  |
 | :--------: | :----: | :-------------------------------------------------------------: | :--------------: | :-----------: |
