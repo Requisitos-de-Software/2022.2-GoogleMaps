@@ -159,7 +159,7 @@ Uma breve descrição do escopo desta Especificação Suplementar: a qual(is) Pr
 
 <figcaption align="center">Fonte: Elaboração própia</figcaption>
 
-## 4. Histórico de Versão
+## 11. Histórico de Versão
 
 |    Data    | Versão |                          Modificações                           |    Autor(es)     |  Revisor(es)  |
 | :--------: | :----: | :-------------------------------------------------------------: | :--------------: | :-----------: |
@@ -167,7 +167,7 @@ Uma breve descrição do escopo desta Especificação Suplementar: a qual(is) Pr
 | 08/12/2022 |  1.1   |  Adição de requisitos de sistema e restrições de design         | Alexia e Iago    |     Marcus    |
 | 09/12/2022 |  1.2   |  Correções de ortografia e padronizações         | Lucas    |     Marcus    |
 
-## 5. Bibliografia
+## 12. Bibliografia
 
 > Artefato: Especificações Suplementares. Disponível em: [link](https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html#:~:text=Artefato%3A%20Especifica%C3%A7%C3%B5es%20Suplementares&text=Esse%20artefato%20captura%20os%20requisitos,especifica%C3%A7%C3%B5es%20de%20casos%20de%20uso.). Acesso em dez. de 2022.
 
