@@ -15,6 +15,7 @@ hide:
 
 <center>
 
+  <figcaption align="center">Tabela 1: Equipe de desenvolvimento</figcaption>
 |                                                                                                          |     Membro     |                             Github                              |
 | :------------------------------------------------------------------------------------------------------: | :------------: | :-------------------------------------------------------------: |
 | <img src="https://avatars.githubusercontent.com/u/61877198?v=4" width=100rem style="border-radius: 50%"> |  Alexia Naara  |            [alexianaa](https://github.com/alexianaa)            |
@@ -23,6 +24,8 @@ hide:
 | <img src="https://avatars.githubusercontent.com/u/69515514?v=4" width=100rem style="border-radius: 50%"> | Luiza Esteves  |        [luiza-esteves](https://github.com/luiza-esteves)        |
 | <img src="https://avatars.githubusercontent.com/u/88516249?v=4" width=100rem style="border-radius: 50%"> |  Luciano Melo  | [luciano-freitas-melo](https://github.com/luciano-freitas-melo) |
 | <img src="https://avatars.githubusercontent.com/u/89209017?v=4" width=100rem style="border-radius: 50%"> | Marcus Martins |       [marcusmartinss](https://github.com/marcusmartinss)       |
+
+<figcaption align="center">Fonte: Lucas Felipe e Iago Campelo</figcaption>
 
 </center>
 
@@ -34,5 +37,7 @@ hide:
 | 28/10/2022 |  1.0   |    Criação da página    |    Marcus     |    Luiza    |
 | 16/11/2022 |  2.0   | Ajustes na tela inicial | Lucas  e Iago |   Alexia    |
 | 17/11/2022 |  3.0   | Alteração do aplicativo |    Alexia     |   Marcus    |
+| 17/12/2022 |  4.0   | Padroniza tabela com títulos e autores|    Lucas    |   Alexia   |
+
 
 </center>
