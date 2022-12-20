@@ -36,159 +36,185 @@
 </div>
 
 ## 3. Product Backlog
+&emsp;&emsp;A seguir estão o desenvolvimento do product backlog com o tema "Google Maps", que é o aplicativo utilizado no projeto. Eles estão separados por épicos de forma geral, e, dentro de cada um é possível verificar as features e casos de usos desenvolvidos que estão detalhados na página de histórias de usuários. As prioridades foram definidas com base na [priorização](../elicitacao/8.requisitos finais.md) final dos requisitos.
 
-
-### 3.1 Épico: Ver mapa
-
-<div style="text-align: center">
-<p>Feature: Vizualisação do mapa</p>
-</div>
-
- |ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
-| -------- | -------- |-------- |-------- |-------- |
-| US01 | RF01 | Eu, como usuário, desejo visualizar o mapa, com o intuito de me localizar para utilizar o app devidamente. | Alta | |
-| US02 | RF02 e RF03 | Eu, como usuário, desejo dar zoom in e zoom out no mapa, com o intuito de melhor visualizar as localizações. | Alta | |
-| US03 | RF04| Eu, como usuário, desejo visualizar o nome das ruas no mapa, com o intuito de melhor saber a nomenclatura das mesmas. | Média | |
-| US04 | RF05| Eu, como usuário, desejo visualizar localizações específicas no mapa, com o intuito de ter uma visualização mais fácil das mesmas. | Média | |
+### 3.1 Épico 1: Vizualizar informações
+&emsp;&emsp; Na Tabela 2 abaixo, estão presentes os casos de uso relacionado à feature de visualização do mapa:
 
 <div style="text-align: center">
-<p>Fonte: Luíza</p>
+<p>Tabela 2- Feature: Vizualisação do mapa</p>
 </div>
 
-<div style="text-align: center">
-<p>Feature: Vizualisação de localização</p>
-</div>
-
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US05 | RF06 | Eu, como usuário, desejo selecionar localizações específicas no mapa, com o intuito de visualizar melhor as informações das mesmas. | Alta | |
- US06 | RF17|Eu, como usuário, desejo iniciar trajeto, com o intuito de iniciar a navegação até o destino. | Alta | |
- US07 | RF18|Eu, como usuário, desejo visualizar o horário de funcionamento da localização selecionada, com o intuito de saber se a mesma está aberta ou não. | Alta | |
+ |ID | Rastreabilidade| História de usuário |Prioridade| 
+| -------- | -------- |-------- |-------- |
+| US01 | RF01 | Eu, como usuário, desejo visualizar o mapa, com o intuito de me localizar para utilizar o app devidamente. | Alta | 
+| US02 | RF02 e RF03 | Eu, como usuário, desejo dar zoom in e zoom out no mapa, com o intuito de melhor visualizar as localizações. | Média | 
+| US03 | RF04| Eu, como usuário, desejo visualizar o nome das ruas no mapa, com o intuito de melhor saber a nomenclatura das mesmas. | Média | 
+| US04 | RF05| Eu, como usuário, desejo visualizar localizações específicas no mapa, com o intuito de ter uma visualização mais fácil das mesmas. | Média | 
 
 <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
+<br>
+&emsp;&emsp; Na Tabela 3 abaixo, estão presentes os casos de uso relacionado à feature de visualização de localização:
 
 <div style="text-align: center">
-<p>Feature: Pesquisa e filtragem</p>
-</div>
-
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US08 | RF0 | Eu, como usuário, desejo pesquisar localizações por nome, com o intuito de achar a mesma nos resultados de pesquisa. | Alta | |
- US09 | RF11| 	Eu, como usuário, desejo visualizar a localização que pesquisei, com o intuito de achar a mesma no mapa. | Alta | |
- US10 | RF07 | 	Eu, como usuário, desejo visualizar a distância da localização que pesquisei, com o intuito de saber a distância entre a mesma e minha localização. | Alta | |
- US11 | RF13 |Eu, como usuário, desejo filtrar a pesquisa, com o intuito de achar localizações que desejo. | Alta | |
- US12 | RF14| Eu, como usuário, desejo ter uma lista de localizações filtradas, com o intuito de achar a que desejo. | Alta | |
- US13 | RF15| 	Eu, como usuário, desejo filtrar estabelecimentos alimentícios, com o intuito de encontrar estabelecimentos que oferecem comidas específicas. | Alta | |
-<div style="text-align: center">
-<p>Fonte: Luíza</p>
+<p>Tabela 3 - Feature 2: Vizualisação de localização</p>
 </div>
 
 
-<div style="text-align: center">
-<p>Feature: Traçar Rotas</p>
-</div>
-
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US14 | RF26 | Eu, como usuário, desejo traçar rotas entre localizações, com o intuito de saber como chegar de um ponto a outro. | |
- US15 | RF28| 	Eu, como usuário, desejo selecionar o meio de locomoção recomendado, com o intuito de saber como chegar de um ponto a outro de forma mais rápida. | Alta | |
- US16 | RF29, RF30, RF31, RF32| 	Eu, como usuário, desejo selecionar um meio de locomoção alternativo, com o intuito de saber como chegar de um ponto a outro de forma alternativa. | Alta | |
- US17 | RF27| 	Eu, como usuário, desejo visualizar a distância após traçar rota, com o intuito de saber a distância entre o destino e minha localização. | Alta | |
- US18 | RF33|Eu, como usuário, desejo visualizar o tempo de deslocamento após traçar rota, com o intuito de saber o tempo de deslocamento entre o destino e minha localização. | Alta | |
-
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US05 | RF06 | Eu, como usuário, desejo selecionar localizações específicas no mapa, com o intuito de visualizar melhor as informações das mesmas. | Alta | 
+ US06 | RF17|Eu, como usuário, desejo iniciar trajeto, com o intuito de iniciar a navegação até o destino. | Média | 
+ US07 | RF18|Eu, como usuário, desejo visualizar o horário de funcionamento da localização selecionada, com o intuito de saber se a mesma está aberta ou não. | Média | 
 
 <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
+### 3.2 Épico: Encontrar a melhor rota
+&emsp;&emsp; Na Tabela 4 abaixo, estão presentes os casos de uso relacionado à feature de Pesquisa e filtragem:
+
 <div style="text-align: center">
-<p>Feature: Navegação</p>
+<p>Tabela 4 - Feature: Pesquisa e filtragem</p>
 </div>
 
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US19 | RF37 | Eu, como usuário, desejo iniciar trajeto, com o intuito de iniciar a navegação até o destino. | |
- US20 | RF38| Eu, como usuário, desejo escutar comandos de voz, com o intuito de se orientar durante o trajeto. | Alta | |
- US21 | RF39| 	Eu, como usuário, desejo receber alerta de perigo, com o intuito de saber se há algum perigo durante o trajeto.| Alta | |
- US22 | RF27|  	Eu, como usuário, desejo visualizar a distância durante trajeto, com o intuito de saber a distância entre o destino e minha localização. | Alta | |
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US08 | RF05 | Eu, como usuário, desejo pesquisar localizações por nome, com o intuito de achar a mesma nos resultados de pesquisa. | Alta | 
+ US09 | RF11| 	Eu, como usuário, desejo visualizar a localização que pesquisei, com o intuito de achar a mesma no mapa. | Alta | 
+ US10 | RF07 | 	Eu, como usuário, desejo visualizar a distância da localização que pesquisei, com o intuito de saber a distância entre a mesma e minha localização. | Alta | 
+ US11 | RF13 |Eu, como usuário, desejo filtrar a pesquisa, com o intuito de achar localizações que desejo. | Média | 
+ US12 | RF14| Eu, como usuário, desejo ter uma lista de localizações filtradas, com o intuito de achar a que desejo. | Média | 
+ US13 | RF15| 	Eu, como usuário, desejo filtrar estabelecimentos alimentícios, com o intuito de encontrar estabelecimentos que oferecem comidas específicas. | Baixa | 
+<div style="text-align: center">
+<p>Fonte: Luíza</p>
+</div>
+
+<br>
+&emsp;&emsp; Na Tabela 5 abaixo, estão presentes os casos de uso relacionado à feature de Traçar Rotas:
+
+<div style="text-align: center">
+<p>Tabela 5 - Feature: Traçar Rotas</p>
+</div>
+
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US14 | RF26 | Eu, como usuário, desejo traçar rotas entre localizações, com o intuito de saber como chegar de um ponto a outro. | Alta |
+ US15 | RF28| 	Eu, como usuário, desejo selecionar o meio de locomoção recomendado, com o intuito de saber como chegar de um ponto a outro de forma mais rápida. | Alta | 
+ US16 | RF29, RF30, RF31, RF32| 	Eu, como usuário, desejo selecionar um meio de locomoção alternativo, com o intuito de saber como chegar de um ponto a outro de forma alternativa. | Média | 
+ US17 | RF27| 	Eu, como usuário, desejo visualizar a distância após traçar rota, com o intuito de saber a distância entre o destino e minha localização. | Alta | 
+ US18 | RF33|Eu, como usuário, desejo visualizar o tempo de deslocamento após traçar rota, com o intuito de saber o tempo de deslocamento entre o destino e minha localização. | Média | 
 
 
 <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
+
+### 3.3 Épico: Encontrar destino
+&emsp;&emsp; Na Tabela 6 abaixo, estão presentes os casos de uso relacionado à feature de Navegação:
+
 <div style="text-align: center">
-<p>Feature: Vista da Rua</p>
+<p>Tabela 6 - Feature: Navegação</p>
 </div>
 
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US23 | RF25 |Eu, como usuário, desejo acessar a vista da rua (_street view), com o intuito de ter uma visão mais detalhada de um local específico.| |
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US19 | RF37 | Eu, como usuário, desejo iniciar trajeto, com o intuito de iniciar a navegação até o destino. | Alta |
+ US20 | RF38| Eu, como usuário, desejo escutar comandos de voz, com o intuito de se orientar durante o trajeto. | Alta | 
+ US21 | RF39| 	Eu, como usuário, desejo receber alerta de perigo, com o intuito de saber se há algum perigo durante o trajeto.| Média | 
+ US22 | RF27| Eu, como usuário, desejo visualizar a distância durante trajeto, com o intuito de saber a distância entre o destino e minha localização. | Alta | 
+
+
+<div style="text-align: center">
+<p>Fonte: Luíza</p>
+</div>
+
+<br>
+&emsp;&emsp; Na Tabela 7 abaixo, estão presentes os casos de uso relacionado à feature de Vista da Rua:
+
+<div style="text-align: center">
+<p>Tabela 7 - Feature: Vista da Rua</p>
+</div>
+
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US23 | RF25 |Eu, como usuário, desejo acessar a vista da rua (_street view), com o intuito de ter uma visão mais detalhada de um local específico.| Média |
 
  <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
-<div style="text-align: center">
-<p>Feature: Ônibus e metrô</p>
-</div>
-
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US24 | RF34 | Eu, como usuário, desejo ver linhas de ônibus disponíveis, com o intuito de saber quais linhas de ônibus ou metrô estão disponíveis para o trajeto. | |
- US25 | RF35|  	Eu, como usuário, desejo ver horários de ônibus, com o intuito de saber o horário de saída do ônibus para a minha localização desejada. | Alta | |
- US26 | RF36| Eu, como usuário, desejo ver preços de passagem, com o intuito de saber o preço total da(s) passagem(ns) para o trajeto.| Alta |
- US27 | RF08| Eu, como usuário, desejo ver pontos de ônibus espalhados pelo mapa, com o intuito de saber onde o ônibus irá parar. | Alta | |
- US28 | RF09| Eu, como usuário, desejo visualizar a distância durante trajeto, com o intuito de saber a distância entre o destino e minha localização. Eu, como usuário, desejo ver pontos de metrô espalhados pelo mapa, com o intuito de saber onde o metrô irá parar.| Alta | |
+### 3.4 Épico: Acessar informações públicas
+&emsp;&emsp; Na Tabela 8 abaixo, estão presentes os casos de uso relacionado à feature de Ônibus e metrô:
 
 <div style="text-align: center">
-<p>Fonte: Luíza</p>
+<p>Tabela 8 - Feature: Ônibus e metrô</p>
 </div>
 
-
-<div style="text-align: center">
-<p>Feature: Estabelecimentos</p>
-</div>
-
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US29 | RF12 |Eu, como usuário, desejo poder ligar para um estabelecimento, com o intuito de me comunicar com o mesmo.| |
- US30 | RF19| Eu, como usuário, desejo ver comentários de estabelecimentos, com o intuito de saber a opinião de outros usuários sobre o mesmo.| Alta | |
- US31 | RF20| Eu, como usuário, desejo filtrar comentários de estabelecimentos, com o intuito de ver apenas comentários de um tipo específico.| Alta |
- US32 | RF22| Eu, como usuário, desejo ver nota de estabelecimentos, com o intuito de saber a procedência e avaliação dos mesmos. | Alta | |
- US33 | RF24| Eu, como usuário, desejo ver fotos de estabelecimentos, com o intuito de saber como o estabelecimento é.| Alta | |
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US24 | RF34 | Eu, como usuário, desejo ver linhas de ônibus disponíveis, com o intuito de saber quais linhas de ônibus ou metrô estão disponíveis para o trajeto. | Média|
+ US25 | RF35|  	Eu, como usuário, desejo ver horários de ônibus, com o intuito de saber o horário de saída do ônibus para a minha localização desejada. | Média | 
+ US26 | RF36| Eu, como usuário, desejo ver preços de passagem, com o intuito de saber o preço total da(s) passagem(ns) para o trajeto.| Baixa |
+ US27 | RF08| Eu, como usuário, desejo ver pontos de ônibus espalhados pelo mapa, com o intuito de saber onde o ônibus irá parar. | Média | 
+ US28 | RF09| Eu, como usuário, desejo visualizar a distância durante trajeto, com o intuito de saber a distância entre o destino e minha localização. Eu, como usuário, desejo ver pontos de metrô espalhados pelo mapa, com o intuito de saber onde o metrô irá parar.| Baixa | 
 
 <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
+<br>
+&emsp;&emsp; Na Tabela 9 abaixo, estão presentes os casos de uso relacionado à feature de Estabelecimentos:
 
 <div style="text-align: center">
-<p>Feature: Contribuição</p>
+<p>Tabela 9 - Feature: Estabelecimentos</p>
 </div>
 
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US34 | RF40 |Eu, como usuário, desejo criar localização de estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| |
- US35 | RF21| Eu, como usuário, desejo comentar sobre estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Alta | |
- US36 | RF23| Eu, como usuário, desejo dar nota a estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Alta |
+ID | Rastreabilidade| História de usuário |Prioridade| 
+ -------- | -------- |-------- |-------- |
+ US29 | RF12 |Eu, como usuário, desejo poder ligar para um estabelecimento, com o intuito de me comunicar com o mesmo.| Baixa |
+ US30 | RF19| Eu, como usuário, desejo ver comentários de estabelecimentos, com o intuito de saber a opinião de outros usuários sobre o mesmo.| Baixa | 
+ US31 | RF20| Eu, como usuário, desejo filtrar comentários de estabelecimentos, com o intuito de ver apenas comentários de um tipo específico.| Baixa |
+ US32 | RF22| Eu, como usuário, desejo ver nota de estabelecimentos, com o intuito de saber a procedência e avaliação dos mesmos. | Média | 
+ US33 | RF24| Eu, como usuário, desejo ver fotos de estabelecimentos, com o intuito de saber como o estabelecimento é.| Alta | 
+
+<div style="text-align: center">
+<p>Fonte: Luíza</p>
+</div>
+
+### 3.3 Épico: Dar feedback
+
+&emsp;&emsp; Na Tabela 10 abaixo, estão presentes os casos de uso relacionado à feature de Contribuição:
+
+<div style="text-align: center">
+<p>Tabela 10 - Feature: Contribuição</p>
+</div>
+
+ID | Rastreabilidade| História de usuário |Prioridade|
+ -------- | -------- |-------- |-------- |
+ US34 | RF40 |Eu, como usuário, desejo criar localização de estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Média |
+ US35 | RF21| Eu, como usuário, desejo comentar sobre estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Baixa | 
+ US36 | RF23| Eu, como usuário, desejo dar nota a estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Média |
 
 
 <div style="text-align: center">
 <p>Fonte: Luíza</p>
 </div>
 
+<br>
+&emsp;&emsp; Na Tabela 11 abaixo, estão presentes os casos de uso relacionado à feature de Alimentação:
 <div style="text-align: center">
-<p>Feature: Alimentação</p>
+<p>Tabela 11 - Feature: Alimentação</p>
 </div>
 
-ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitação |
- -------- | -------- |-------- |-------- |-------- |
- US37 | RF23 | 	Eu, como usuário, desejo dar nota a estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| |
- US38 | RF15| Eu, como usuário, desejo ver cardápio de estabelecimentos, com o intuito de saber o que o estabelecimento oferece.| Alta | |
+ID | Rastreabilidade| História de usuário |Prioridade|
+ -------- | -------- |-------- |-------- |
+ US37 | RF23 | 	Eu, como usuário, desejo dar nota a estabelecimentos, com o intuito de contribuir com o mapa e com outros usuários.| Média |
+ US38 | RF15| Eu, como usuário, desejo ver cardápio de estabelecimentos, com o intuito de saber o que o estabelecimento oferece.| Baixa | 
 
 
 <div style="text-align: center">
@@ -200,5 +226,6 @@ ID | Rastreabilidade| História de usuário |Prioridade| Critérios de aceitaç�
 |    Data    | Versão |                          Modificações                           |    Autor(es)     |  Revisor(es)  |
 | :--------: | :----: | :-------------------------------------------------------------: | :--------------: | :-----------: |
 | 19/12/2022 |  1.0   |  Criação da página de Backlog                 | Luíza            | Alexia |
+| 29/12/2022 |  1.0   |  Separação por épicos e priorização                | Luíza            | Alexia |
 
 ##  Bibliografia
