@@ -53,4 +53,11 @@ nav:
   - Elicitação: elicitacao
   - Apresentações: entregas.md
   - Modelagem: modelagem
-  - Análise: analise
+  - Análise:
+    - Verificação:
+          - Planejamento: analise/verificacao/1.Planejamento.md
+          - Elicitação: analise/verificacao/2.Elicitacao.md
+          - Cenários, Léxico, Caso de Uso, Especificação Suplementar: analise/verificacao/3.Modelagem1.md
+          - Histórias de Usuário, Backlogs, NFR Framework: analise/verificacao/4.Modelagem2.md
+      #- Validação:
+          
