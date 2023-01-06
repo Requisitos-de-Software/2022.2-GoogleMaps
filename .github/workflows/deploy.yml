@@ -17,5 +17,4 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocstrings
       - run: pip install mkdocs-include-dir-to-nav
-      - run: mkdocs gh-deploy -c
       - run: mkdocs gh-deploy --force
