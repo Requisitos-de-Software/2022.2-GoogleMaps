@@ -51,14 +51,9 @@ nav:
   - Encontros: encontros
   - Pré-Rastreabilidade: pre_rastreabilidade
   - Elicitação: elicitacao
-  - Apresentações: entregas.md
   - Modelagem: modelagem
   - Análise:
-    - Verificação:
-          - Introdução: analise/verificacao/1. Introdução.md
-          - Planejamento: analise/verificacao/2.Planejamento.md
-          - Elicitação: analise/verificacao/3.Elicitacao.md
-          - Cenários, Léxico, Caso de Uso, Especificação Suplementar: analise/verificacao/4.Modelagem1.md
-          - Histórias de Usuário, Backlogs, NFR Framework: analise/verificacao/5.Modelagem2.md
-      #- Validação:
-
+    - Verificação: analise/verificacao
+    #- Validação: analise/validacao
+  - Apresentações: entregas.md
+          
