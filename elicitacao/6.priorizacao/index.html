@@ -1,0 +1,2191 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../5.questionario/">
+      
+      
+        <link rel="next" href="../7.requisitos%20finais/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.3">
+    
+    
+      
+        <title>Priorização - Google Maps</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6b71719e.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Product Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="yellow">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#priorizacao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Google Maps" class="md-header__button md-logo" aria-label="Google Maps" data-md-component="logo">
+      
+  <img src="../../assets/logos/google-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Google Maps
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Priorização
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="yellow"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2022.2-GoogleMaps" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.2-GoogleMaps
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Início
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../planejamento/1.cronograma/" class="md-tabs__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../encontros/0.introducao/" class="md-tabs__link">
+        Encontros
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../pre_rastreabilidade/Apps%20Analisados/" class="md-tabs__link">
+        Pré-Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../1.perfil/" class="md-tabs__link md-tabs__link--active">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../modelagem/1.lexicos/" class="md-tabs__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../analise/Validacao/1.%20introducao/" class="md-tabs__link">
+        Análise
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../entregas/" class="md-tabs__link">
+      Apresentações
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Google Maps" class="md-nav__button md-logo" aria-label="Google Maps" data-md-component="logo">
+      
+  <img src="../../assets/logos/google-logo.png" alt="logo">
+
+    </a>
+    Google Maps
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2022.2-GoogleMaps" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.2-GoogleMaps
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="false">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/1.cronograma/" class="md-nav__link">
+        Cronograma
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/2.metodologias/" class="md-nav__link">
+        Metodologias
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/3.ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/4.padronizacao/" class="md-nav__link">
+        Padronização
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          Encontros
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Encontros" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Encontros
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/0.introducao/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/1.reuniao03-11/" class="md-nav__link">
+        03/11/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/2.reuniao10-11/" class="md-nav__link">
+        10/11/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/3.reuniao17-11/" class="md-nav__link">
+        17/11/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/4.reuniao29-11/" class="md-nav__link">
+        29/11/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/5.reuniao15-12/" class="md-nav__link">
+        15/12/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encontros/6.reuniao05-01-23/" class="md-nav__link">
+        05/01/2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/Apps%20Analisados/" class="md-nav__link">
+        Aplicativos analisados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre_rastreabilidade/RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="true">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.perfil/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Priorização
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tecnicas-utilizadas" class="md-nav__link">
+    2. Técnicas utilizadas
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Técnicas utilizadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-basico" class="md-nav__link">
+    2.1. BASICO
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. BASICO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-aplicacao" class="md-nav__link">
+    2.1.1. Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-custo-x-beneficio" class="md-nav__link">
+    2.2. Custo x Benefício
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Custo x Benefício">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-aplicacao" class="md-nav__link">
+    2.2.1. Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-moscow" class="md-nav__link">
+    2.3 MoSCoW
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 MoSCoW">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-aplicacao" class="md-nav__link">
+    2.3.1 Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conclusao" class="md-nav__link">
+    3. Conclusão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-historico-de-versoes" class="md-nav__link">
+    4. Histórico de Versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    5. Bibliografia
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.requisitos%20finais/" class="md-nav__link">
+        Requisitos Finais
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6" tabindex="0" aria-expanded="false">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/1.lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/2.cenario/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/3.casos_de_uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/4.especificacao_suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/5.NFR/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/6.historias_usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/7.backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7" tabindex="0" aria-expanded="false">
+          Análise
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Análise" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Análise
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7_1" tabindex="0" aria-expanded="false">
+          Validacao
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Validacao" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          Validacao
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Validacao/1.%20introducao/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Validacao/2.%20Planejamento/" class="md-nav__link">
+        2. Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Validacao/3.%20Elicitacao/" class="md-nav__link">
+        3. Elicitacao
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Validacao/4.%20Modelagem1/" class="md-nav__link">
+        4. Modelagem1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Validacao/5.%20Modelagem2/" class="md-nav__link">
+        5. Modelagem2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7_2" tabindex="0" aria-expanded="false">
+          Verificacao II
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Verificacao II" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Verificacao II
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Verificacao%20II/1.introducao/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Verificacao%20II/2.Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Verificacao%20II/3.Elicitacao/" class="md-nav__link">
+        Técnicas de Elicitação e Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Verificacao%20II/4.Modelagem/" class="md-nav__link">
+        Cenários, Léxico, Caso de Uso, Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/Verificacao%20II/5.ModelagemAgil/" class="md-nav__link">
+        Histórias de Usuário, Backlogs, NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_7_3" type="checkbox" id="__nav_7_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7_3" tabindex="0" aria-expanded="false">
+          verificacao
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="verificacao" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          verificacao
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/1.%20Introdu%C3%A7%C3%A3o/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/2.Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/3.Elicitacao/" class="md-nav__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/4.Modelagem1/" class="md-nav__link">
+        Cenários, Léxico, Caso de Uso, Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise/verificacao/5.Modelagem2/" class="md-nav__link">
+        Product Backlog, Histórias de Usuário, NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tecnicas-utilizadas" class="md-nav__link">
+    2. Técnicas utilizadas
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Técnicas utilizadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-basico" class="md-nav__link">
+    2.1. BASICO
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. BASICO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-aplicacao" class="md-nav__link">
+    2.1.1. Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-custo-x-beneficio" class="md-nav__link">
+    2.2. Custo x Benefício
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Custo x Benefício">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-aplicacao" class="md-nav__link">
+    2.2.1. Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-moscow" class="md-nav__link">
+    2.3 MoSCoW
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 MoSCoW">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-aplicacao" class="md-nav__link">
+    2.3.1 Aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conclusao" class="md-nav__link">
+    3. Conclusão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-historico-de-versoes" class="md-nav__link">
+    4. Histórico de Versões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bibliografia" class="md-nav__link">
+    5. Bibliografia
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+
+<h1 id="priorizacao">Priorização</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>&emsp;&emsp; A priorização é uma técnica de elicitação de requisitos que consiste em ordenar os requisitos de acordo com a importância que eles possuem para o usuário. Essa técnica é utilizada para que os requisitos mais importantes sejam implementados primeiro, e assim, o usuário possa utilizar o sistema com mais facilidade e rapidez. O id dos requisitos foi adicionado nas tabelas: 01 para requisitos elicitados a partir das entrevistas, 02 para requisitos elicitados a partir da observação e 03 requisitos elicitados a partir da priorização.</p>
+<h2 id="2-tecnicas-utilizadas">2. Técnicas utilizadas</h2>
+<p>&emsp;&emsp; A priorização foi realizada através de três técnicas: Custo x Benefício, BASICO e MOSCoW. As técnicas escolhidas foram selecionadas pois são simples de avaliar os requisitos e não precisam de um cliente para serem priorizados.</p>
+<p>&emsp;&emsp; A seguir, serão apresentadas as técnicas utilizadas e os requisitos priorizados. Os requisitos utilizados são especificados na seção #4 página de <a href="../4.entrevista/">Entrevistas</a>.</p>
+<h3 id="21-basico">2.1. BASICO</h3>
+<p>&emsp;&emsp;A Matriz BASICO costuma ser usada para auxiliar em decisões importantes. Por meio de uma escala de notas de 1 (pior cenário) a 5 (melhor cenário), qualquer pessoa consegue mapear tarefas e ações por prioridades. O nome desse método de priorização tem relação com a inicial de cada critério que é preciso considerar para a pontuação, como:</p>
+<ul>
+<li><strong>B</strong>enefícios para a empresa;</li>
+<li><strong>A</strong>brangência dos resultados;</li>
+<li><strong>S</strong>atisfação do cliente interno;</li>
+<li><strong>I</strong>nvestimento necessário;</li>
+<li><strong>C</strong>liente externo satisfeito;</li>
+<li><strong>O</strong>peracionalidade simples.</li>
+</ul>
+<p>&emsp;&emsp;Cada um desses itens deve receber uma nota <strong>— de 1 a 5 —</strong> conforme sua relevância dentro de um projeto, ação, tarefa ou processo.</p>
+<p>&emsp;&emsp;Depois de somar a nota de cada tópico, use a pontuação total para comparar com as notas de outras necessidades em sua agenda. Pronto! Você já sabe o que precisa ser feito antes e o que pode esperar.</p>
+<h4 id="211-aplicacao">2.1.1. Aplicação</h4>
+<p>&emsp;&emsp;A pontuação dos requisitos é dada de acordo com a tabela 1:</p>
+<figcaption align="center">Tabela 1: Requisitos em BASICO</figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="left">Requisito</th>
+<th align="left">B</th>
+<th align="left">A</th>
+<th align="left">S</th>
+<th align="left">I</th>
+<th align="left">C</th>
+<th align="left">O</th>
+<th align="left">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">RF01</td>
+<td align="left">5</td>
+<td align="left">2</td>
+<td align="left">5</td>
+<td align="left">3</td>
+<td align="left">5</td>
+<td align="left">2</td>
+<td align="left">22</td>
+</tr>
+<tr>
+<td align="left">RF02</td>
+<td align="left">5</td>
+<td align="left">4</td>
+<td align="left">5</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">4</td>
+<td align="left">20</td>
+</tr>
+<tr>
+<td align="left">RF03</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">1</td>
+<td align="left">4</td>
+<td align="left">1</td>
+<td align="left">17</td>
+</tr>
+<tr>
+<td align="left">RF04</td>
+<td align="left">5</td>
+<td align="left">2</td>
+<td align="left">5</td>
+<td align="left">2</td>
+<td align="left">5</td>
+<td align="left">4</td>
+<td align="left">23</td>
+</tr>
+<tr>
+<td align="left">RF05</td>
+<td align="left">3</td>
+<td align="left">3</td>
+<td align="left">3</td>
+<td align="left">1</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">20</td>
+</tr>
+<tr>
+<td align="left">RF06</td>
+<td align="left">2</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">1</td>
+<td align="left">23</td>
+</tr>
+<tr>
+<td align="left">RNF01</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">4</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">3</td>
+<td align="left">27</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Iago</figcaption>
+
+<p>&emsp;&emsp; Após a pontuação, os requisitos foram ordenados de acordo com a pontuação total, sendo o requisito com maior pontuação o mais importante. A sequência de priorização dos requisitos é apresentada na tabela 2 a seguir:</p>
+<figcaption align="center">Tabela 2: Requisitos priorizados em BASICO </figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Ordem de prioridade</th>
+<th align="center">Requisito</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">RNF01</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">RF04 e RF06</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">RF01</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">RF02 e RF05</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">RF03</td>
+<td>01</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Iago </figcaption>
+
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica BASICO pode ser acessado <a href="https://youtu.be/Pq_891Akk_Y">aqui</a>.</p>
+<h3 id="22-custo-x-beneficio">2.2. Custo x Benefício</h3>
+<p>&emsp;&emsp;Esse método de priorização de projetos é o mais fácil de compreender, afinal muitas pessoas já estão familiarizadas com o termo “custo x benefício”. Nesse caso, a matriz ajuda a esclarecer qual o valor de um projeto e a relação disso com o resultado esperado do projeto. Para fazer esse balanço, utilizamos uma matriz dividida por cores e quadrantes, como mostra a figura 1:</p>
+<figure>
+<figcaption>Figura 1 - Matriz Custo x Benefício</figcaption>
+<p><img alt="Custo x Beneficio" src="../../assets/custo_x_beneficio.png" /></p>
+<figcaption>Fonte: rockcontent.com.br</figcaption>
+</figure>
+<p>&emsp;&emsp;Com a matriz custo x benefício não é preciso calcular nada, apenas pegar os dados previstos para o seu projeto e encaixá-los nos quadrantes coloridos.</p>
+<p>&emsp;&emsp;A lógica das cores nesse método, é:</p>
+<ul>
+<li>Vermelho: representa o pior resultado possível, com custo elevado e baixo retorno;</li>
+<li>Amarelo: mostra um resultado intermediário, em que o custo e o benefício são considerados ok;</li>
+<li>Verde: se trata de um projeto com baixo custo, mas que não trará muitos benefícios;</li>
+<li>Azul: é a melhor das opções, pois representa os melhores resultados possíveis para um projeto.</li>
+</ul>
+<h4 id="221-aplicacao">2.2.1. Aplicação</h4>
+<p>&emsp;&emsp;Os requisitos foram colocados em cada quadrante de acordo com a sua importância e o seu custo. A figura 2 apresenta os requisitos em cada quadrante:</p>
+<figcaption align="center">Figura 2: Requisitos em Custo x Benefício</figcaption>
+
+<p><center></p>
+<p><img alt="Tabela Custo x Benefício" src="../../assets/prioriza%C3%A7%C3%A3o/custo_x_beneficio.png" /></p>
+<p></center></p>
+<figcaption align="center">Fonte: Iago</figcaption>
+
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica Custo x Benefício pode ser acessado <a href="https://youtu.be/wPYxSMKpp8o">aqui</a>.</p>
+<h3 id="23-moscow">2.3 MoSCoW</h3>
+<p>&emsp;&emsp;O método MoSCoW divide os requisitos em quatro prioridades, que são definidas de acordo com a importância que o requisito possui para o usuário. As quatro prioridades são:</p>
+<ul>
+<li><strong>Must</strong>: Para requisitos que devem ser satisfeitos para que a solução seja um sucesso.</li>
+<li><strong>Should</strong>: Aqueles que deveriam ser incluídos na solução, se possível, mas não são obrigatórios para o sucesso.</li>
+<li><strong>Could</strong>: Inclui capacidades desejadas que serão implementadas caso o tempo e os recursos permitam.</li>
+<li><strong>Won't</strong>: Indica requisitos que não serão implementados por agora, mas podem ser incluídos em entregas futuras.</li>
+</ul>
+<h4 id="231-aplicacao">2.3.1 Aplicação</h4>
+<p>&emsp;&emsp; <strong>Cronograma de entrevistas</strong>: Foi realizado um cronograma para as entrevistas com as personas do projeto, afim de priorização dos requisitos com cada uma. O cronograma está apresentado na tabela 3.</p>
+<figcaption align="center">Tabela 3: Cronograma de entrevistas</figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Hora</th>
+<th>Persona entrevistada</th>
+<th>Entrevistador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30/11/2022</td>
+<td>17:35</td>
+<td>Manuel Gomes</td>
+<td>Marcus</td>
+</tr>
+<tr>
+<td>30/11/2022</td>
+<td>17:55</td>
+<td>Juliana Almeida</td>
+<td>Iago</td>
+</tr>
+<tr>
+<td>30/11/2022</td>
+<td>18:15</td>
+<td>Carolina Silveira</td>
+<td>Marcus</td>
+</tr>
+<tr>
+<td>30/11/2022</td>
+<td>18:30</td>
+<td>Ricardo Mendes</td>
+<td>Iago</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Iago </figcaption>
+
+<p>&emsp;&emsp; <strong>Manuel Gomes (persona primária)</strong>: A tabela 4 apresenta os requisitos priorizados junto a persona Manuel Gomes.</p>
+<figcaption align="center">Tabela 4: Requisitos priorizados com Manuel em MOSCoW </figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">MOSCoW</th>
+<th align="center">Requisito</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Must</td>
+<td align="center">RF01, RF04, RNF01</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Should</td>
+<td align="center">RF05, RF06</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Could</td>
+<td align="center">RF02</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Won't</td>
+<td align="center">RF03</td>
+<td>01</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Marcus </figcaption>
+
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica MoSCoW com o Manuel Gomes pode ser acessado <a href="https://youtu.be/cihl-itrQKk">aqui</a>.</p>
+<p>&emsp;&emsp; <strong>Juliana Almeida (anti-persona)</strong>: Na tabela 5 é possível visualizar os requisitos elicitados com essa persona.</p>
+<figcaption align="center">Tabela 5: Requisitos priorizados com Juliana em MOSCoW </figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">MOSCoW</th>
+<th align="center">Requisito</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Must</td>
+<td align="center">RF02, RF05, RNF01</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Should</td>
+<td align="center">RF01</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Could</td>
+<td align="center">RF06</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Won't</td>
+<td align="center">RF03, RF04</td>
+<td>01</td>
+</tr>
+</tbody>
+</table>
+<figcaption align="center">Fonte: Iago </figcaption>
+
+<p></center></p>
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica MoSCoW com a Juliana Almeida pode ser acessado <a href="https://youtu.be/8MzfqGi_kCk">aqui</a>.</p>
+<p>&emsp;&emsp; <strong>Carolina Silveira (persona secundária)</strong>: A tabela 6 apresenta os requisitos priorizados em conjunto com a persona Carolina Silveira.</p>
+<figcaption align="center">Tabela 6: Requisitos priorizados com Carolina em MOSCoW </figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">MOSCoW</th>
+<th align="center">Requisito</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Must</td>
+<td align="center">RF01, RF02, RF04</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Should</td>
+<td align="center">RF05, RF06</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Could</td>
+<td align="center"></td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Won't</td>
+<td align="center">RF03, RNF01</td>
+<td>01</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Marcus </figcaption>
+
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica MoSCoW com a Carolina Silveira pode ser acessado <a href="https://youtu.be/A-rQizDWEFw">aqui</a>.</p>
+<p>&emsp;&emsp; <strong>Ricardo Mendes (persona secundária)</strong>: Os requisitos priorizados pela persona Ricardo Mendes estão apresentados na tabela 7.</p>
+<figcaption align="center">Tabela 7: Requisitos priorizados com Ricardo em MOSCoW </figcaption>
+
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">MOSCoW</th>
+<th align="center">Requisito</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Must</td>
+<td align="center">RF01, RF02, RF05</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Should</td>
+<td align="center">RF06</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Could</td>
+<td align="center">RF04</td>
+<td>01</td>
+</tr>
+<tr>
+<td align="center">Won't</td>
+<td align="center">RF03, RNF01</td>
+<td>01</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<figcaption align="center">Fonte: Iago </figcaption>
+
+<p>&emsp;&emsp; O link para o vídeo da aplicação da técnica MoSCoW com o Ricardo Mendes pode ser acessado <a href="https://youtu.be/RB4gYeuXv3c">aqui</a>.</p>
+<h2 id="3-conclusao">3. Conclusão</h2>
+<p>&emsp;&emsp;De acordo com as técnicas de priorização utilizadas, os requisitos mais importantes para o sistema são apresentados nessa sequência: RNF01, RF01, RF02, RF04, RF06, RF05, RF03. Esses requisitos foram priorizados de acordo com a importância que eles possuem para o usuário, sendo que os requisitos que possuem maior pontuação são os mais importantes.</p>
+<h2 id="4-historico-de-versoes">4. Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificações</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30/11/2022</td>
+<td>1.0</td>
+<td>Criação da Página e Requisitos Priorizados</td>
+<td>Iago e Marcus</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>30/11/2022</td>
+<td>1.1</td>
+<td>Adição de Vídeos de Aplicação</td>
+<td>Iago e Marcus</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>06/12/2022</td>
+<td>2.0</td>
+<td>Adição das tabelas de priorização</td>
+<td>Marcus</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>06/12/2022</td>
+<td>2.1</td>
+<td>Adição dos Motivos da escolhas das técnicas</td>
+<td>Marcus</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>07/12/2022</td>
+<td>3.0</td>
+<td>Junção das técnicas de priorização com esse artefato e padronização</td>
+<td>Luciano</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>13/12/2022</td>
+<td>3.1</td>
+<td>Atualiza tabelas com id identificador da técnica do requisito</td>
+<td>Alexia</td>
+<td>Marcus</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-bibliografia">5. Bibliografia</h2>
+<blockquote>
+<p>CONTENT, Rock. Saiba quais são as 6 principais metodologias usadas para priorização de projetos. Disponível em: <a href="https://rockcontent.com/br/blog/priorizacao-de-projetos/">link</a> Acesso em nov. de 2022.</p>
+<p>RIBEIRO, Renato. Matriz BASICO: descubra o que é e como ela pode ajudar o seu negócio. Disponível em: <a href="https://rockcontent.com/br/blog/matriz-basico/">link</a>. Acesso em nov. de 2022.</p>
+<p>Software Requirements, 3ª edição - Karl Wiegers &amp; Joy Beatty. Acesso em nov. de 2022.</p>
+</blockquote>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Google Maps
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "toc.follow"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ba449ae6.min.js"></script>
+      
+    
+  </body>
+</html>
