@@ -52,8 +52,6 @@ nav:
   - Pré-Rastreabilidade: pre_rastreabilidade
   - Elicitação: elicitacao
   - Modelagem: modelagem
-  - Análise:
-    - Verificação: analise/verificacao
-    #- Validação: analise/validacao
+  - Análise: analise
   - Apresentações: entregas.md
           
